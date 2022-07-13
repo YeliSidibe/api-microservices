@@ -69,10 +69,6 @@ typings/
 
 # next.js build output
 .next
-server/dist
-shared/dist
-client/build
-
 
 node_modules/
 orders/node_modules/
