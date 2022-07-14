@@ -94,8 +94,8 @@ resource containerApp 'Microsoft.App/containerApps@2022-01-01-preview' = {
         }
       ]
       ingress: {
-        'external': nodeIsExternalIngress
-        'targetPort': nodePort
+        external: nodeIsExternalIngress
+        targetPort: nodePort
       }
     }
     template: {
@@ -107,7 +107,7 @@ resource containerApp 'Microsoft.App/containerApps@2022-01-01-preview' = {
           env: [
             {
               name: 'APPSETTINGS_API_KEY'
-              secretref: mailgunApiKeyRef
+              secretRef: mailgunApiKeyRef
             }
             {
               name: 'APPSETTINGS_DOMAIN'
