@@ -15,7 +15,7 @@ param APPSETTINGS_DOMAIN string
 param APPSETTINGS_FROM_EMAIL string
 param APPSETTINGS_RECIPIENT_EMAIL string
 
-var location = resourceGroup().location
+param location string  = resourceGroup().location
 var environmentName = 'env-${uniqueString(resourceGroup().id)}'
 var minReplicas = 0
 
