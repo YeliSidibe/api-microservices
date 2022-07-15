@@ -6,4 +6,4 @@ Yeli Sidibe c74b1006-4a93-4234-a0f5-d633c2cbb13f
 az ad sp create-for-rbac --name "yeliContainerApp" --role contributor --scopes /subscriptions/c74b1006-4a93-4234-a0f5-d633c2cbb13f/resourceGroups/rg-container-apps-service --sdk-auth
 
 
-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
+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
